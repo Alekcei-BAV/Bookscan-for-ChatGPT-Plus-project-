@@ -1,0 +1,30 @@
+# Never accidentally commit user-uploaded books or processing results.
+*.pdf
+*.epub
+*.djvu
+*.cbz
+*.zip
+*.7z
+*.rar
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+*.webp
+*.log
+progress.json
+report.md
+RESUME.md
+book_progress_*/
+book_final*/
+
+# Generated archives and local environments.
+dist/
+__pycache__/
+.pytest_cache/
+.venv/
+venv/
+.DS_Store
+.env
+.env.*
