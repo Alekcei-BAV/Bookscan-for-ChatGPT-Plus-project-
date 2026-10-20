@@ -1,9 +1,15 @@
-# Bookscan-for-ChatGPT-Plus-projec
+# Bookscan-for-ChatGPT Plus (project)
 
 **Инструкции для проекта ChatGPT по диагностике PDF-книг, восстановлению текстового слоя и созданию удобной навигации.**  
 **An instruction-based workflow for inspecting PDF books, repairing text layers, and adding usable navigation in ChatGPT Projects.**
 
 **Instruction set:** `v1.1.0` · **Languages:** Russian (instructions), Russian/English (this README) · **License:** MIT
+
+**GitHub repository:** [Alekcei-BAV/Bookscan-for-ChatGPT-Plus-project-](https://github.com/Alekcei-BAV/Bookscan-for-ChatGPT-Plus-project-)  
+**Public repository display name:** `Bookscan-for-ChatGPT Plus (project)`  
+**Processing protocol / PDF mark:** `BookScan · v1.1.0` (unchanged).
+
+> **Naming note:** “Plus” is part of the repository name. It is not a claim that this project is an official OpenAI offering or that it requires a ChatGPT Plus subscription. Available file-processing tools and usage limits depend on the user’s ChatGPT environment.
 
 > **Status:** Public instruction set, not a standalone OCR application. Tool availability and output quality depend on the environment. The XMP BookScan passport and tiny page mark are planned by the instructions, but the protocol has not yet been comprehensively validated on a representative PDF test suite. This is an independent community project, **not affiliated with or endorsed by OpenAI**.
 
@@ -70,6 +76,8 @@ python3 tools/validate_and_package.py --output dist/BookScan_for_ChatGPT_v1.1.0.
 The script validates file presence and selected consistency rules. It does **not** run OCR or prove PDF-processing accuracy.
 
 ## Contributing and releases
+
+**Project home:** [GitHub repository](https://github.com/Alekcei-BAV/Bookscan-for-ChatGPT-Plus-project-). To submit an Issue or Pull Request, open the repository and use its GitHub tabs.
 
 Please open an Issue with a **reproducible, redacted technical description** or a Pull Request. Prefer small, tested changes. The project version in the instruction files must remain consistent; record substantive changes in `06_CHANGELOG.md`. The regression scenarios listed there are **plans**, not claims that end-to-end PDF tests already passed.
 

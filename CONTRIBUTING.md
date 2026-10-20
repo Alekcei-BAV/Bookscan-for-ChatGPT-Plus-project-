@@ -2,6 +2,8 @@
 
 Contributions are welcome. This is an independent instruction-based workflow for ChatGPT Projects, **not a production OCR program**.
 
+**Repository:** [https://github.com/Alekcei-BAV/Bookscan-for-ChatGPT-Plus-project-](https://github.com/Alekcei-BAV/Bookscan-for-ChatGPT-Plus-project-).
+
 ## Proposing changes
 
 1. Open an Issue describing the symptom, expected behavior, actual behavior, and affected instruction file. If relevant, include **redacted** tool versions, page counts, anonymized PDF structure, and clear reproduction steps.
